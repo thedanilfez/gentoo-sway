@@ -1,0 +1,19 @@
+# package.use# required by sys-kernel/gentoo-kernel-6.9.3::gentoo[-generic-uki,initramfs]
+# required by virtual/dist-kernel-6.9.3::gentoo
+# required by dist-kernel (argument)
+>=sys-kernel/installkernel-39 dracut
+# required by kde-plasma/plasma-meta-6.0.90-r1::gentoo
+# required by plasma-meta (argument)
+>=kde-plasma/kwin-6.0.90.1-r3 lock
+# required by dev-qt/qttools-6.7.1::gentoo[widgets]
+# required by dev-qt/qttranslations-6.7.1::gentoo
+# required by kde-frameworks/kcoreaddons-6.3.0::gentoo
+# required by gui-apps/xwaylandvideobridge-0.4.0::gentoo
+# required by kde-plasma/plasma-meta-6.0.90-r1::gentoo[xwayland]
+# required by plasma-meta (argument)
+>=dev-qt/qtbase-6.7.1 opengl libproxy
+# required by kde-frameworks/kcoreaddons-6.3.0::gentoo
+# required by gui-apps/xwaylandvideobridge-0.4.0::gentoo
+# required by kde-plasma/plasma-meta-6.0.90-r1::gentoo[xwayland]
+# required by plasma-meta (argument)
+>=dev-qt/qtdeclarative-6.7.1 opengl

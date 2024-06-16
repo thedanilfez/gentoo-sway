@@ -1,0 +1,4 @@
+media-video/ffmpeg opus vpx
+sys-libs/zlib minizip
+dev-qt/qtgui jpeg
+dev-qt/qtcore icu
