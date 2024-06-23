@@ -17,6 +17,7 @@ gaps outer 3
 gaps inner 5
 corner_radius 6
 client.focused #131313 #272727 #cecece #9077e7 #9077e7
+blur enable
 
 # Input
 input * {
@@ -36,6 +37,7 @@ exec_always gentoo-pipewire-launcher
 bindsym --to-code $mod+q exec foot
 bindsym --to-code $mod+f exec firefox-bin
 bindsym --to-code $mod+t exec telegram-desktop
+bindsym --to-code $mod+d exec flatpak run dev.vencord.Vesktop
 
 # Other keybinds
 bindsym --to-code $mod+shift+r reload

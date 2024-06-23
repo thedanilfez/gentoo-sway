@@ -28,7 +28,8 @@
 	},
 	"cpu": {
 		"interval": 10,
-		"format": " {}%"
+		"format": " {}%",
+		"on-click": "foot -L btop"
 	},
 	"wireplumber": {
 		"format": "{icon} {volume}%",
@@ -43,6 +44,7 @@
 	},
 	"memory": {
 		"interval": 10,
-		"format": " {used}GiB"
+		"format": " {used}GiB",
+		"on-click": "foot -L btop"
 	}
 }
