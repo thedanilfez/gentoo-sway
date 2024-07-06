@@ -1,0 +1,19 @@
+# Remove useless things from sway
+gui-wm/sway -man -swaynag -wallpapers
+# Use pipewire as sound server
+media-video/pipewire sound-server
+# Use seatd as openrc service
+sys-auth/seatd server builtin
+
+# Remove useless formats from swayimg
+media-gfx/swayimg -exif -gif
+
+# Add some APIs to mesa
+media-libs/mesa vulkan opengl
+
+# DDRace Network USEs
+media-libs/libsdl2 gles2 vulkan opengl -haptic -joystick 
+games-action/ddnet client -server -tools vulkan
+
+# gui-apps/grim
+gui-apps/grim jpeg -man
