@@ -1,7 +1,7 @@
 # My sway configuration files
 ![alt text](https://github.com/thedanilfez/gentoo-sway/raw/master/screenshot.jpg)
 ## Software
-- [SwayFX](https://github.com/WillPower3309/swayfx) Wayland compositor
+- [sway](https://github.com/swaywm/sway) Wayland compositor
 - Swaybar Panel
 - [Wofi](https://sr.ht/~scoopta/wofi/) Application launcher
 - [swww](https://github.com/LGFae/swww) Wallpaper
