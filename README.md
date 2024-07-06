@@ -1,8 +1,8 @@
 # My swayfx configuration files
-![alt text](https://github.com/thedanilfez/gentoo-sway/raw/master/screenshot.png)
+![alt text](https://github.com/thedanilfez/gentoo-sway/raw/master/screenshot.jpg)
 ## Software
 - [SwayFX](https://github.com/WillPower3309/swayfx) Wayland compositor
-- [Waybar](https://github.com/Alexays/Waybar) Panel
+- Swaybar + i3blocks Panel
 - [Wofi](https://sr.ht/~scoopta/wofi/) Application launcher
 - [swww](https://github.com/LGFae/swww) Wallpaper
 - [swaync](https://github.com/ErikReider/SwayNotificationCenter) Notifications daemon
