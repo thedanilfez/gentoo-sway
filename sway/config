@@ -9,15 +9,13 @@ set $filemgr foot --title=ranger -L ranger
 # Some settings
 default_border pixel
 floating_modifier $mod
+font pango:JetBrains Mono Nerd Font 11
 
 # Appearance
-layer_effects "waybar" blur enable;
 layer_effects "foot" blur enable;
 gaps outer 3
 gaps inner 5
-corner_radius 6
 client.focused #131313 #272727 #cecece #9077e7 #9077e7
-blur enable
 
 # Input
 input * {
@@ -26,10 +24,10 @@ input * {
 }
 
 # Autostart
-exec_always $HOME/.local/bin/autotiling
+exec_always /usr/bin/autotiling
 exec_always swww init &
-exec_always swww img $HOME/Wallpapers/gentoocow1.jpg
-exec_always swaync
+exec_always swww img $HOME/Wallpapers/waves.png
+exec_always /usr/libexec/xdg-desktop-portal
 exec_always dbus-update-activation-environment DISPLAY
 exec_always gentoo-pipewire-launcher
 
@@ -56,9 +54,15 @@ bindsym --to-code $mod+shift+5 move container to workspace number 5
 bindsym --to-code $mod+r exec $menu
 bindsym --to-code $mod+f11 exec pactl set-sink-volume @DEFAULT_SINK@ +3%
 bindsym --to-code $mod+f10 exec pactl set-sink-volume @DEFAULT_SINK@ -3%
-bindsym --to-code $mod+print exec grim
+bindsym --to-code $mod+print exec grimshot copy
 
 # Bar
 bar {
-	swaybar_command waybar
+	position bottom
+	status_command i3blocks
+	colors {
+		background #181926
+		focused_background #181926
+		focused_workspace #8269a1 #8269a1 #ffffff
+	}
 }
