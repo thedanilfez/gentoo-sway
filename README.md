@@ -1,9 +1,8 @@
-# My sway configuration files
-![alt text](https://github.com/thedanilfez/gentoo-sway/raw/master/screenshot.jpg)
+# My Gentoo + SwayFX
+
 ## Software
-- [sway](https://github.com/swaywm/sway) Wayland compositor
-- Swaybar Panel
-- [Wofi](https://sr.ht/~scoopta/wofi/) Application launcher
-- [swww](https://github.com/LGFae/swww) Wallpaper
-- [swaync](https://github.com/ErikReider/SwayNotificationCenter) Notifications daemon
-- [wlogout](https://github.com/ArtsyMacaw/wlogout) Power menu
+- `SwayFX` Wayland compositor
+- `swaybar + i3blocks` Bar
+- `wofi` Application launcher
+- `powerlevel10k` zsh theme
+- `JetBrains Mono Nerd + Font Awesome` font
