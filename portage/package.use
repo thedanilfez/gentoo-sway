@@ -1,5 +1,5 @@
 # Remove useless things from sway
-gui-wm/sway -man -swaynag -wallpapers
+gui-wm/swayfx -man -swaynag -wallpapers
 # Use pipewire as sound server
 media-video/pipewire sound-server
 # Use seatd as openrc service
@@ -17,3 +17,12 @@ games-action/ddnet client -server -tools vulkan
 
 # gui-apps/grim
 gui-apps/grim jpeg -man
+
+# Remove garbage from mpv
+media-video/mpv -uchardet
+
+# Remove garbage from qemu
+app-emulation/qemu -jpeg -png -slirp -vnc
+
+# Add flatpak support to portals
+sys-apps/xdg-desktop-portal flatpak

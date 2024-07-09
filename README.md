@@ -1,5 +1,5 @@
 # My Gentoo + SwayFX
-
+![alt text](https://github.com/thedanilfez/gentoo-sway/blob/master/screenshot.jpg?raw=true
 ## Software
 - `SwayFX` Wayland compositor
 - `swaybar + i3blocks` Bar

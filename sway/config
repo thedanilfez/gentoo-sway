@@ -27,9 +27,9 @@ input * {
 exec_always /usr/bin/autotiling
 exec_always swww init &
 exec_always swww img $HOME/Wallpapers/waves.png
-exec_always /usr/libexec/xdg-desktop-portal
+exec_always /usr/libexec/xdg-desktop-portal &
 exec_always dbus-update-activation-environment DISPLAY
-exec_always gentoo-pipewire-launcher
+exec_always gentoo-pipewire-launcher &
 
 # Main keybinds
 bindsym --to-code $mod+q exec foot
@@ -58,7 +58,7 @@ bindsym --to-code $mod+print exec grimshot copy
 
 # Bar
 bar {
-	position bottom
+	position top
 	status_command i3blocks
 	colors {
 		background #181926
